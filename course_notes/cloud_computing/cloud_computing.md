@@ -1,0 +1,35 @@
+# Cloud Computing
+
+![website_image](../../materials/images/website_image.png)
+
+## What is Cloud Computing ?
+
+Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources.
+
+![types_cloud](../../materials/images/types_cloud_computing.png)
+
+Types of Cloud Computing:
+
+* Infrastructure as a Service:
+    * Amazon EC2 (on AWS)
+    * GCP, Azure, Rackspace, Digital Ocean, Linode
+* Platform as a Service:
+    * Elastic Beanstalk (on AWS)
+    * Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
+* Software as a Service:
+    * Many AWS services (ex: Rekognition for Machine Learning)
+    * Google Apps (Gmail), Dropbox, Zoom
+
+Tour of the AWS Console:
+* AWS has Global Services:
+    * Identity and Access Management (IAM)
+    * Route 53 (DNS service)
+    * CloudFront (Content Delivery Network)
+    * WAF (Web Application Firewall)
+* Most AWS services are Region-scoped:
+    * Amazon EC2 (Infrastructure as a Service)
+    * Elastic Beanstalk (Platform as a Service)
+    * Lambda (Function as a Service)
+    * Rekognition (Software as a Service)
+* Region Table: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services 
+
