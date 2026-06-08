@@ -1,6 +1,6 @@
 # Identity and Access Management (Global Service)
 
-# Users, Groups, Policies
+## Users, Groups, Policies
 
 -> root account is created by default (not shared)
 
@@ -8,7 +8,7 @@
 
 -> can be assigned JSON documents called policies (permissions of an user or group) => least privilege principle: don’t give more permissions than a user needs
 
-# Policies Structure
+## Policies Structure
 
 ![policies_structure](../materials/images/policies_structure.png)
 
@@ -27,7 +27,7 @@
     * Condition: conditions for when this policy is in effect 
     (optional)
 
-# Multi Factor Authentication - MFA
+## Multi Factor Authentication - MFA
 
 -> you want to protect your Root Accounts and IAM users
 
@@ -37,7 +37,7 @@
 
 -> if a password is stolen or hacked, the account is not compromised (they need to have access on your security device)
 
-# AWS Access Key, CLI ans SDK
+## AWS Access Key, CLI ans SDK
 
 To access AWS, you have three options:
 * AWS Management Console (protected by password + MFA)
@@ -50,18 +50,18 @@ To access AWS, you have three options:
 
 -> AWS SDK: enables you to access and manage AWS services programmatically (language-specific APIs)
 
-# IAM Roles
+## IAM Roles
 
 -> assign permissions to AWS services
 
 -> it's like adding permissions to an user, but you will add to an service that will perform actions on your behalf
 
-# IAM Security Tools
+## IAM Security Tools
 
 * IAM Credentials Report (account-level) -> a report that lists all your account's users and the status of their various credentials
 * IAM Access Advisor (user-level) -> Access advisor shows the service permissions granted to a user and when those services were last accessed
 
-# Shared Responsibility Model
+## Shared Responsibility Model
 
 AWS Responsability:
 * Infrastructure (global network security)
