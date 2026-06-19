@@ -94,6 +94,42 @@ Classic Ports to know:
 * 443 = HTTPS – access secured websites
 * 3389 = RDP (Remote Desktop Protocol) – log into a Windows instance
 
+## SSH
+
+-> it allows you to control a remote machine, all using the command line
+
+-> you can use EC2 Connect Instance as well
+
+## EC2 Instances Purchasing Options
+
+* On demand: coming and staying in resort whenever we like, we pay the full price
+* Reserved: like planning ahead and if we plan to stay for a long time, we may get a good discount.
+* Savings Plans: pay a certain amount per hour for certain period and stay in any room type (e.g., King, Suite, Sea View, ...)
+* Spot instances: the hotel allows people to bid for the empty rooms and the highest bidder keeps the rooms. You can get kicked out at any time
+* Dedicated Hosts: We book an entire building of the resort
+* Capacity Reservations: you book a room for a period with full price even you don’t stay in it
+
+![ec2_prices](..\materials\images\ec2_prices.png)
+
+## Shared Responsibility Model for EC2
+
+AWS:
+
+* Infrastructure (global network security)
+* Isolation on physical hosts
+* Replacing faulty hardware
+* Compliance validation
+
+User:
+
+* Security Groups rules
+* Operating-system patches and updates
+* Software and utilities installed on the EC2 instance
+* IAM Roles assigned to EC2 & IAM user access management
+* Data security on your instance
+
+
+
 
 
 
