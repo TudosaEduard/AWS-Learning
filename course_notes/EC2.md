@@ -128,10 +128,95 @@ User:
 * IAM Roles assigned to EC2 & IAM user access management
 * Data security on your instance
 
+# EC2 Instance Storage
 
+## EBS (Elastic Block Store)
 
+-> network drive you can attach to your EC2 instance while they run (network USB stick)
 
+-> allows your instance to persist data, even after termination
 
+-> attached to one instance at a time, for a specific available zone
 
+-> provisioned capacity (billed for all capacity) => can be increased
 
+![ebs](..\materials\images\ebs.png)
+
+## EBS Snapshot
+
+-> backup for your EBS
+
+-> can copy snapshots across AZ or Region
+
+-> you can archive a Snapshot (75% cheaper), you can restore the arhive between 24 and 72 hours
+
+-> you can recover them after an accidental deletion using Recycle Bin (setup rules for recover from 1 day to 1 year)
+
+![ebs_snapshot](..\materials\images\ebs_snapshot.png)
+
+## AMI (Amazon Machine Image)
+
+-> customization of an EC2 instance (specific region)
+
+-> all your software is pre-packaged
+
+-> launch EC2 instance from:
+
+* A Public AMI: AWS provided
+* Your own AMI:  you make and maintain them yourself
+* An AWS Marketplace AMI: an AMI someone else made (and potentially sells
+
+![ami](..\materials\images\ami.png)
+
+## EC2 Image Builder
+
+-> used to automate the creation of Virtual Machines or container images (automate the creation, maintain, validate and test EC2 AMIs)
+
+-> can be run on a schedule 
+
+-> free service
+
+![ec2_image_builder](..\materials\images\ec2_image_builder.png)
+
+## EC2 Instance Store
+
+-> high-performance hardware disk compared with EBS
+
+-> better I/O performance, good for buffer / cache / scratch data / temporary content
+
+-> lose their storage if they’re stopped, risk of data loss if hardware fails
+
+## EFS (Elastic File System)
+
+-> managed NFS (network file system) that can be mounted on 100s of EC2 (Linux EC2 in multi-AZ)
+
+-> Highly available, scalable, expensive, pay per use, no capacity planning
+
+![efs](..\materials\images\efs.png)
+
+-> EFS Infrequent Access (EFS-IA): storage class that is cost-optimized for files not accessed every day (92% lower cost), EFS will automatically move your files to EFS-IA based on the last time they were accessed
+
+## Shared Responsibility Model
+
+AWS:
+
+* Infrastructure
+* Replication for data for EBS volumes & EFS drives
+* Replacing faulty hardware
+* Ensuring their employees cannot access your data
+
+User:
+
+* Setting up backup / snapshot procedures
+* Setting up data encryption
+* Responsibility of any data on the drives
+* Understanding the risk of using EC2 Instance Store
+
+## FSx
+
+-> launch 3rd party high-performance file systems on AWS (fully managed service)
+
+-> for Windows => Network File System for Windows servers
+
+-> for Lustre (Linux + cluster) => High Performance Computing Linux file system
 
