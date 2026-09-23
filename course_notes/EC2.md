@@ -83,7 +83,7 @@ They regulate:
 * Control of inbound network
 * Control of outbound network
 
-![security_groups](..\materials\images\security_groups.png)
+![security_groups](../materials/images/security_groups.png)
 
 Classic Ports to know: 
 
@@ -109,7 +109,7 @@ Classic Ports to know:
 * Dedicated Hosts: We book an entire building of the resort
 * Capacity Reservations: you book a room for a period with full price even you don’t stay in it
 
-![ec2_prices](..\materials\images\ec2_prices.png)
+![ec2_prices](../materials/images/ec2_prices.png)
 
 ## Shared Responsibility Model for EC2
 
@@ -140,7 +140,7 @@ User:
 
 -> provisioned capacity (billed for all capacity) => can be increased
 
-![ebs](..\materials\images\ebs.png)
+![ebs](../materials/images/ebs.png)
 
 ## EBS Snapshot
 
@@ -152,7 +152,7 @@ User:
 
 -> you can recover them after an accidental deletion using Recycle Bin (setup rules for recover from 1 day to 1 year)
 
-![ebs_snapshot](..\materials\images\ebs_snapshot.png)
+![ebs_snapshot](../materials/images/ebs_snapshot.png)
 
 ## AMI (Amazon Machine Image)
 
@@ -166,7 +166,7 @@ User:
 * Your own AMI:  you make and maintain them yourself
 * An AWS Marketplace AMI: an AMI someone else made (and potentially sells
 
-![ami](..\materials\images\ami.png)
+![ami](../materials/images/ami.png)
 
 ## EC2 Image Builder
 
@@ -176,7 +176,7 @@ User:
 
 -> free service
 
-![ec2_image_builder](..\materials\images\ec2_image_builder.png)
+![ec2_image_builder](../materials/images/ec2_image_builder.png)
 
 ## EC2 Instance Store
 
@@ -192,7 +192,7 @@ User:
 
 -> Highly available, scalable, expensive, pay per use, no capacity planning
 
-![efs](..\materials\images\efs.png)
+![efs](../materials/images/efs.png)
 
 -> EFS Infrequent Access (EFS-IA): storage class that is cost-optimized for files not accessed every day (92% lower cost), EFS will automatically move your files to EFS-IA based on the last time they were accessed
 

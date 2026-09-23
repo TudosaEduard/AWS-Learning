@@ -4,11 +4,11 @@
 * Customer responsibility => Security in the Cloud
 * Shared controls => Patch Management, Configuration Management, Awareness & Training
 
-![shared_resp](..\materials\images\shared_resp.png)
+![shared_resp](../materials/images/shared_resp.png)
 
 # DDOS Attack (Distributed Denial-of-Service)
 
-![ddos](..\materials\images\ddos.png)
+![ddos](../materials/images/ddos.png)
 
 DDOS Protection on AWS: 
 
@@ -20,13 +20,13 @@ DDOS Protection on AWS:
     * Combined with AWS Shield, provides attack mitigation at the edge
 * Be ready to scale – leverage AWS Auto Scaling
 
-![protection](..\materials\images\protection.png)
+![protection](../materials/images/protection.png)
 
 # AWS Network Firewall
 
 -> protect your entire Amazon VPC
 
-![firewall](..\materials\images\firewall.png)
+![firewall](../materials/images/firewall.png)
 
 ## AWS Firewall Manager
 
@@ -81,7 +81,7 @@ Prohibited Activities
 
 -> provision, manage, and deploy SSL/TLS Certificates
 
-![acm](..\materials\images\acm.png)
+![acm](../materials/images/acm.png)
 
 # AWS Secrets Manager
 
@@ -108,7 +108,7 @@ Prohibited Activities
 
 -> can setup EventBridge rules to be notified in case of findings
 
-![guardduty](..\materials\images\guardduty.png)
+![guardduty](../materials/images/guardduty.png)
 
 # Amazon Inspector
 
@@ -122,7 +122,7 @@ Prohibited Activities
 
 -> a risk score is associated with all vulnerabilities for prioritization
 
-![inspector](..\materials\images\inspector.png)
+![inspector](../materials/images/inspector.png)
 
 # AWS Config
 
@@ -148,7 +148,7 @@ Prohibited Activities
 
 -> integrated dashboards showing current security and compliance status to quickly take actions
 
-![security_hub](..\materials\images\security_hub.png)
+![security_hub](../materials/images/security_hub.png)
 
 # Amazon Detective
 

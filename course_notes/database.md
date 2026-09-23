@@ -34,7 +34,7 @@
 
 -> you can’t SSH into your instances
 
-![rds](..\materials\images\rds.png)
+![rds](../materials/images/rds.png)
 
 ### Amazon Aurora
 
@@ -54,7 +54,7 @@
     * Can create up to 15 Read Replicas
     * Data is only written to the main DB
 
-    ![rds_replica](..\materials\images\rds_replica.png)
+    ![rds_replica](../materials/images/rds_replica.png)
 
 * Multi-AZ:
 
@@ -62,7 +62,7 @@
     * Data is only read/written to the main database
     * Can only have 1 other AZ as failover
 
-    ![rds_multi_az](..\materials\images\rds_multi_az.png)
+    ![rds_multi_az](../materials/images/rds_multi_az.png)
 
 * Multi-Region (Read Replicas):
 
@@ -70,7 +70,7 @@
     * Local performance for global reads
     * Replication cost
 
-    ![rds_multi_region](..\materials\images\rds_multi_region.png)
+    ![rds_multi_region](../materials/images/rds_multi_region.png)
 
 ## Amazon ElastiCache
 
@@ -82,7 +82,7 @@
 
 -> reduce load off databases for read intensive workloads
 
-![elasticache](..\materials\images\elasticache.png)
+![elasticache](../materials/images/elasticache.png)
 
 ## DynamoDB
 
@@ -106,7 +106,7 @@
 
 -> DAX is only used for and is integrated with DynamoDB, while ElastiCache can be used for other databases
 
-![dynamoDB_dax](..\materials\images\dynamoDB_dax.png)
+![dynamoDB_dax](../materials/images/dynamoDB_dax.png)
 
 ### Global Tables
 
@@ -114,7 +114,7 @@
 
 -> Active-Active replication (read/write to any AWS Region)
 
-![dynamoDB_global](..\materials\images\dynamoDB_global.png)
+![dynamoDB_global](../materials/images/dynamoDB_global.png)
 
 ## Redshift
 
@@ -192,7 +192,7 @@
 
 -> useful to prepare and transform data for analytics
 
-![glue](..\materials\images\glue.png)
+![glue](../materials/images/glue.png)
 
 -> can be used by Athena, Redshift, EMR 
 
@@ -204,4 +204,4 @@
 
 -> the source database remains available during the migration
 
-![dms](..\materials\images\dms.png)
+![dms](../materials/images/dms.png)

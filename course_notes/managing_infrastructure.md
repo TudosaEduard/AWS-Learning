@@ -13,7 +13,7 @@ exact configuration that you specify
 
 -> Infrastructure Composer: we can see all the resources and the relations between the components
 
-![cloud_formation](..\materials\images\cloud_formation.png)
+![cloud_formation](../materials/images/cloud_formation.png)
 
 # AWS Cloud Development Kit (CDK)
 
@@ -23,7 +23,7 @@ exact configuration that you specify
 
 -> you can therefore deploy infrastructure and application runtime code together
 
-![cdk](..\materials\images\cdk.png)
+![cdk](../materials/images/cdk.png)
 
 # AWS Elastic Beanstalk
 
@@ -84,7 +84,7 @@ Benefits:
 
 -> fully managed, compatible with CodeCommit, CodeBuild, CodeDeploy, Elastic Beanstalk, CloudFormation, GitHub, 3rd-party services (GitHub...) & custom plugins
 
-![code_pipeline](..\materials\images\code_pipeline.png)
+![code_pipeline](../materials/images/code_pipeline.png)
 
 ## AWS CodeArtifact
 
@@ -116,7 +116,7 @@ Benefits:
 
 -> no port 22 needed (better security)
 
-![ssm](..\materials\images\ssm.png)
+![ssm](../materials/images/ssm.png)
 
 ## Systems Manager Parameter Store
 

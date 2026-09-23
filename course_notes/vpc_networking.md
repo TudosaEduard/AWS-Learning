@@ -19,7 +19,7 @@
 * A private subnet is a subnet that is not accessible from the internet
 * To define access to the internet and between subnets, we use Route Tables.
 
-![vpc](..\materials\images\vpc.png)
+![vpc](../materials/images/vpc.png)
 
 ## Internet Gateway & NAT Gateways
 
@@ -27,7 +27,7 @@
 * Public Subnets have a route to the internet gateway.
 * NAT Gateways (AWS-managed) & NAT Instances (self-managed) allow your instances in your Private Subnets to access the internet while remaining private
 
-![nat_gateway](..\materials\images\nat_gateway.png)
+![nat_gateway](../materials/images/nat_gateway.png)
 
 ## Network ACL & Security Groups
 
@@ -43,7 +43,7 @@ Instance
 * Can have only ALLOW rules
 * Rules include IP addresses and other security groups
 
-![nacl](..\materials\images\nacl.png)
+![nacl](../materials/images/nacl.png)
 
 ## VPC Flow Logs
 
@@ -72,7 +72,7 @@ Instance
 * VPC Endpoint Gateway: S3 & DynamoDB
 * VPC Endpoint Interface: most services (including S3 & DynamoDB)
 
-![vpc_endpoints](..\materials\images\vpc_endpoints.png)
+![vpc_endpoints](../materials/images/vpc_endpoints.png)
 
 ## AWS PrivateLink
 
@@ -89,7 +89,7 @@ Site to Site VPN:
 * The connection is automatically encrypted
 * Goes over the public internet
 
-![site_vpn](..\materials\images\site_vpn.png)
+![site_vpn](../materials/images/site_vpn.png)
 
 Direct Connect (DX):
 * Establish a physical connection between on-premises and AWS

@@ -64,9 +64,9 @@
 
 -> Event-Driven: functions get invoked by AWS when needed
 
-![lambda](..\materials\images\lambda.png)
+![lambda](../materials/images/lambda.png)
 
-![lambda_eventbridge](..\materials\images\lambda_eventbridge.png)
+![lambda_eventbridge](../materials/images/lambda_eventbridge.png)
 
 ## AWS API Gateway
 
@@ -78,7 +78,7 @@
 
 -> expose Lambda functions as HTTP API
 
-![api_gateway](..\materials\images\api_gateway.png)
+![api_gateway](../materials/images/api_gateway.png)
 
 ## AWS Batch
 

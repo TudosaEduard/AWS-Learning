@@ -18,7 +18,7 @@
 
 Load balancers: servers that forward internet traffic to multiple servers (EC2 Instances) downstream.
 
-![load_balancer](..\materials\images\load_balancer.png)
+![load_balancer](../materials/images/load_balancer.png)
 
 -> expose a single point of access (DNS) to your application
 
@@ -32,7 +32,7 @@ Load balancers offered by AWS:
 * Network Load Balancer (ultra-high performance, allows for TCP) – Layer 4
 * Gateway Load Balancer – Layer 3
 
-![elb](..\materials\images\elb.png)
+![elb](../materials/images/elb.png)
 
 ## Auto Scaling Groups
 
@@ -42,7 +42,7 @@ Load balancers offered by AWS:
 
 -> integrated with the ELB
 
-![asg](..\materials\images\asg.png)
+![asg](../materials/images/asg.png)
 
 Scaling Strategies:
 
