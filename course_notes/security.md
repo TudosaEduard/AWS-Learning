@@ -95,7 +95,7 @@ Prohibited Activities
 
 # AWS Artifact 
 
--> portal that provides customers with on-demand access to AWS compliance documentation and AWS agreements
+-> portal that provides customers with on-demand access to AWS compliance documentation and AWS agreements (ISO Certifications)
 
 -> can be used to support internal audit or compliance
 
